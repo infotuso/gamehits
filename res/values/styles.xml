@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="game_details_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="game_details_year">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="game_details_votes">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="game_details_desc">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="list_item_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="list_item_votes">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="list_item_button">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+</resources>
