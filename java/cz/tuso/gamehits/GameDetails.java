@@ -6,6 +6,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class GameDetails extends AppCompatActivity {
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.fade_in, R.anim.to_right);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

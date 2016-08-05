@@ -94,6 +94,8 @@ public class AllGames extends AppCompatActivity {
                     i.putExtra("Image", String.valueOf(game.getImage()));
                     i.putExtra("Votes", String.valueOf(game.getVotes()));
                     startActivity(i);
+
+                    overridePendingTransition(R.anim.from_right, R.anim.fade_out);
                 }
 
 
